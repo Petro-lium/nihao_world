@@ -7,11 +7,12 @@ while True:
         a.append(c)
 for i in range(len(a)):
     for j in range(len(a[0])):
-        print(int(a[i - 1][j]) + 
-              int(a[i + 1 - len(a)][j]) + 
-              int(a[i][j-1]) + 
+        print(int(a[i - 1][j]) +
+              int(a[i + 1 - len(a)][j]) +
+              int(a[i][j-1]) +
               int(a[i][j + 1 - len(a[0])]), end=' ')
     print()
+
 #https://stepik.org/lesson/3369/step/10?thread=solutions&unit=952
 #Напишите программу, на вход которой подаётся прямоугольная матрица в виде последовательности строк, 
 #заканчивающихся строкой, содержащей только строку "end" (без кавычек)
