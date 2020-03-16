@@ -8,4 +8,8 @@ while k < n:
     if k > 0:
         print(k)
     k = s*s
+<<<<<<< HEAD
     s = s + 1
+=======
+    s = s + 1                                                                                                                                                                                                                                                                                                                                                                                                   
+>>>>>>> 969b4cbefd5d5713a6876a513aaa97da0ef264ed
